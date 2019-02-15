@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from bookinfo.views import bookinfo
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^BookService/bookinfo/', bookinfo)
 ]
