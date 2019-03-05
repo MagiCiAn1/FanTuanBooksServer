@@ -8,7 +8,7 @@ from django.db import models
 
 class BookInfo(models.Model):
 	id = models.IntegerField(primary_key=True, auto_created=True)
-	book_name = models.CharField(max_length=255)
+	bookName = models.CharField(max_length=255)
 	author = models.CharField(max_length=255)
 	intro = models.TextField()
 	img = models.CharField(max_length=255)

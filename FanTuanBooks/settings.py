@@ -23,7 +23,7 @@ SECRET_KEY = '15##*e*mzvh8+&$&q+#79ueaazeeo7%#z)ndqx#0&6q6yh-=u9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'FanTuanBooks.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'fantuan',
+	'USER': '',
+	'PASSOWRD': '',
+	'HOST': '',
+	'PORT': '',
     }
 }
 

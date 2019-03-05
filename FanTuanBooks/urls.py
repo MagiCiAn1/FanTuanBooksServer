@@ -16,8 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from bookinfo.views import bookinfo
-
+from bookinfo.views import last_chapter
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^BookService/bookinfo/', bookinfo)
+    url(r'^BookService/bookinfo/', bookinfo),
+    url(r'^BookService/lastchapter/', last_chapter),
 ]
