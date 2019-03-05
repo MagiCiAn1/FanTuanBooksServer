@@ -4,7 +4,7 @@
 
 注：服务器端请配合本人对于loveliu大神的
 
-[源APP]: https://github.com/loveliu/FanTuan
+[源APP](https://github.com/loveliu/FanTuan)
 
 魔改后的APP食用，与源APP无关。
 
@@ -40,5 +40,5 @@
 
 ------
 
-[loveliu]: https://github.com/loveliu
+[loveliu](https://github.com/loveliu)
 
